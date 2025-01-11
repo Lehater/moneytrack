@@ -26,9 +26,9 @@ public class ShowExpensesUseCase {
     }
 
     /**
-     * @param user         - текущий авторизованный пользователь
+     * @param user          - текущий авторизованный пользователь
      * @param categoryNames - список названий категорий
-     * @param outputFile   - имя файла для вывода (или null, если надо вывести в консоль)
+     * @param outputFile    - имя файла для вывода (или null, если надо вывести в консоль)
      * @return строка с результатом (если outputFile == null), либо "" (если записано в файл)
      */
     public String execute(User user,

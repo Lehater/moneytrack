@@ -126,10 +126,10 @@ public class CliRunner {
                     }
 
                     case "show_expenses" -> {
-//                        if (tokens.length < 2) {
-//                            System.out.println("Использование: show_expenses {cat1} {cat2} ... [--output=filename]");
-//                            break;
-//                        }
+                        if (tokens.length < 2) {
+                            System.out.println("Использование: show_expenses {cat1} {cat2} ... [--output=filename]");
+                            break;
+                        }
                         String outputFile = null;
                         List<String> categoryNames = new ArrayList<>();
 
